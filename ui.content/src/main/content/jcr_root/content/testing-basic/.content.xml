@@ -1,0 +1,19 @@
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/testing-basic/settings/wcm/templates/(?!xf-).*]"
+        cq:conf="/conf/testing-basic"
+        cq:redirectTarget="/content/testing-basic/us/en"
+        cq:template="/conf/testing-basic/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Test Basic Project"
+        sling:configRef="/conf/testing-basic"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="testing-basic/components/page">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <language-masters/>
+    <us/>
+</jcr:root>

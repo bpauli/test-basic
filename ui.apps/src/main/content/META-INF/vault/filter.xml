@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/testing-basic/clientlibs"/>
+    <filter root="/apps/testing-basic/components"/>
+    <filter root="/apps/testing-basic/i18n"/>
+    <filter root="/apps/sling" />
+    <filter root="/apps/msm/testing-basic_blueprint" mode="merge"/>
+</workspaceFilter>
