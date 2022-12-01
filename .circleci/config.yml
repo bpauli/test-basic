@@ -1,0 +1,13 @@
+version: 2.1
+orbs:
+  maven: circleci/maven@1.4.0
+workflows:
+  version: 2
+  build-workflow:
+    jobs:
+      - maven/test:
+          executor: java11
+executors:
+  java11:
+    docker:
+      - image: cimg/openjdk:11.0
